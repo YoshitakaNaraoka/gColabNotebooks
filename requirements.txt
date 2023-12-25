@@ -1,0 +1,4 @@
+rdkit
+py3Dmol
+mordred
+dcekit
