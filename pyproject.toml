@@ -1,6 +1,4 @@
 [tool.ruff]
-indent-width = 2
-
 # Exclude a variety of commonly ignored directories.
 exclude = [
     ".bzr",
