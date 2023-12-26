@@ -1,4 +1,8 @@
 [tool.ruff]
+# Allow minus-sign (U+2212), greek-small-letter-rho (U+03C1), and the asterisk-operator (U+2217),
+# which could be confused for "-", "p", and "*", respectively.
+allowed-confusables = ["−", "ρ", "∗"]
+
 # Exclude a variety of commonly ignored directories.
 exclude = [
     ".bzr",
