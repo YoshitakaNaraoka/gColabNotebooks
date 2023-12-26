@@ -10,3 +10,7 @@ jobs:
             src: "./src"
             version: 0.0.292
             args: --config pyproject.toml
+      -  name: Run Ruff (lint)
+         run: ruff check . --fix
+      -  name: format
+         run: ruff format .
