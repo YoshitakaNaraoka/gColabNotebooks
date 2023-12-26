@@ -3,3 +3,6 @@ py3Dmol
 mordred
 dcekit
 pubchempy
+matplotlib
+flask
+autoviz
