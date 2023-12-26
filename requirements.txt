@@ -6,3 +6,4 @@ pubchempy
 matplotlib
 flask
 autoviz
+ruff
